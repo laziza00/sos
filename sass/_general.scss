@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:  'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
